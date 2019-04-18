@@ -1,5 +1,5 @@
 {
-  "name": "spanish-dict-api",
+  "name": "spanish-dict-client",
   "version": "1.0.1",
   "description": "Scrapes www.spanishdict.com for verb conjugations and translations",
   "main": "index.js",
@@ -16,10 +16,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkinSolomon/spanish-dict-api.git"
+    "url": "git+https://github.com/ArkinSolomon/spanish-dict-client.git"
   },
   "bugs": {
-    "url": "https://github.com/ArkinSolomon/spanish-dict-api/issues"
+    "url": "https://github.com/ArkinSolomon/spanish-dict-client/issues"
   },
-  "homepage": "https://github.com/ArkinSolomon/spanish-dict-api#readme"
+  "homepage": "https://github.com/ArkinSolomon/spanish-dict-client#readme"
 }

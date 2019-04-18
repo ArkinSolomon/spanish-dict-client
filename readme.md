@@ -1,10 +1,10 @@
-# **spanish-dict-api**
+# **spanish-dict-client**
 
-[![npm version](https://badge.fury.io/js/spanish-dict-api.svg)](https://badge.fury.io/js/spanish-dict-api)
+[![npm version](https://badge.fury.io/js/spanish-dict-client.svg)](https://badge.fury.io/js/spanish-dict-client)
 
 ## **Disclaimer**
 
-This is ***not*** an actual API, it is sort of like one. This package is not endorsed by, or correlated to, SpanishDict or Curiosity Media Inc., it simply scrapes [www.spanishdict.com](www.spanishdict.com) and returns data from the site.
+This is an ***unofficial*** client, it is sort of like one. This package is not endorsed by, or correlated to, SpanishDict or Curiosity Media Inc., it simply scrapes [www.spanishdict.com](www.spanishdict.com) and returns data from the site.
 
 ## Info
 
@@ -13,10 +13,10 @@ This package currently can only translate and conjugate. I will expand the proje
 ## Installation
 
 Paste this into your command line:<br>
-`npm install spanish-dict-api`
+`npm install spanish-dict-client`
 
 Put this at the top of your JavaScript file:<br>
-`const dict = require('spanish-dict-api');`
+`const dict = require('spanish-dict-client');`
 
 ## Functions
 ### Translate `.translate(<word>)`
