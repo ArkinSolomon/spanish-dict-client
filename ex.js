@@ -18,3 +18,7 @@ dict.conjugate(options)
   .catch(console.log);
 
 //Outputs: [ 'hicisteis' ]
+
+dict.examples(options)
+  .then(console.log)
+  .catch(console.log);
