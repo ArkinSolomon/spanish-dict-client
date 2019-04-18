@@ -4,7 +4,7 @@
 
 ## **Disclaimer**
 
-This is an ***unofficial*** client, it is sort of like one. This package is not endorsed by, or correlated to, SpanishDict or Curiosity Media Inc., it simply scrapes [www.spanishdict.com](www.spanishdict.com) and returns data from the site.
+This is an ***unofficial*** client. This package is not endorsed by, or correlated to, SpanishDict or Curiosity Media Inc., it simply scrapes [www.spanishdict.com](www.spanishdict.com) and returns data from the site.
 
 ## Info
 
