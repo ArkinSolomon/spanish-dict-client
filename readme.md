@@ -1,5 +1,7 @@
 # **spanish-dict-api**
 
+[![npm version](https://badge.fury.io/js/spanish-dict-api.svg)](https://badge.fury.io/js/spanish-dict-api)
+
 ## **Disclaimer**
 
 This is ***not*** an actual API, it is sort of like one. This package is not endorsed by, or correlated to, SpanishDict or Curiosity Media Inc., it simply scrapes [www.spanishdict.com](www.spanishdict.com) and returns data from the site.
