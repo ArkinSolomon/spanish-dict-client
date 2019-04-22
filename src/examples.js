@@ -28,8 +28,8 @@ module.exports.examples = function(o){
 
       //Searches the site for all div tags with the tense and person defined by the user
       div: ['div', function($div){
-        if ($div.attr('class') && $div.attr('class') === 'megaexamples-pair'){
-          results.push({left: $div.children('.megaexamples-pair-part"')[0].text(), right: $div.children('.megaexamples-pair-part"')[1].text()});
+        if ($div.attr('class')){
+          results.push($div.attr('class'));
         }
       }]
 
@@ -39,7 +39,7 @@ module.exports.examples = function(o){
       if (err) return reject(err);
 
       //Checks if there were any found translations
-      if (results.length <= 0) return reject(new Error(`Examples for ${options.word} were not found`));
+      if (results.length <= 0 && (!(results[0]))) return reject(new Error(`Examples for ${options.word} were not found`));
 
       //Resolves on success
       resolve(results);

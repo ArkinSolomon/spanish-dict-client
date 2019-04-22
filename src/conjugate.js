@@ -45,15 +45,15 @@ module.exports.conjugate = function(options){
 
             //Searches the page for all div tags with the tense and person defined by the user
             div: ['div', function($div){
-              if ($div.attr('data-tense') === options.tense && options.tense !== 'any') return;
-              if ($div.attr('data-person') === options.person && options.person !== '6') return;
+              if ($div.attr('data-tense') !== options.tense && options.tense !== 'any') return;
+              if ($div.attr('data-person') !== options.person && options.person !== '6') return;
               results.push($div.text());
             }],
 
             //Searches the page for all anchor tags with the tense and person defined by the user
             a: ['a', function($a){
-              if ($a.attr('data-tense') === options.tense && options.tense !== 'any') return;
-              if ($a.attr('data-person') === options.person && options.person !== '6') return;
+              if ($a.attr('data-tense') !== options.tense && options.tense !== 'any') return;
+              if ($a.attr('data-person') !== options.person && options.person !== '6') return;
               results.push($a.text());
             }]
 

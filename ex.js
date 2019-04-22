@@ -3,7 +3,7 @@ const dict = require('./index.js');
 const options = {
   word: 'hacer',
   tense: 'preteritIndicative',
-  person: '4',
+  person: '2',
   translateOnError: true
 };
 
@@ -17,7 +17,7 @@ dict.conjugate(options)
   .then(console.log)
   .catch(console.log);
 
-//Outputs: [ 'hicisteis' ]
+//Outputs: [ 'hizo' ]
 
 dict.examples(options)
   .then(console.log)
