@@ -18,7 +18,3 @@ dict.conjugate(options)
   .catch(console.log);
 
 //Outputs: [ 'hizo' ]
-
-dict.examples(options)
-  .then(console.log)
-  .catch(console.log);
