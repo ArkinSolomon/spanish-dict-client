@@ -1,6 +1,6 @@
 {
   "name": "spanish-dict-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scrapes www.spanishdict.com for verb conjugations and translations",
   "main": "index.js",
   "scripts": {
