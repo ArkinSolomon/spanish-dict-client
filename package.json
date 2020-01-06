@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "Arkin Solomon",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "html-to-json": "^0.6.0",
     "lodash": "^4.17.11"
